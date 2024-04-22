@@ -8,8 +8,9 @@ public class frmQuestionario extends javax.swing.JDialog {
         String[] questions = {"Q1","Q2","Q3","Q4","Q5"};
         String[][] answers = {{"1","2","3","4"}, {"5","6","7","8"} , {"9","10","11","12"} 
         , {"13","14","15","16"} , {"17","18","19","20"}}; 
-        int index = 0, correct = 0;
+        int index = 0;
          private Object setAnswers;
+        
         
 
 
@@ -22,19 +23,20 @@ public class frmQuestionario extends javax.swing.JDialog {
   
   }
 
-    public void Resposta(String[][] answers) {
+    public void Resposta(int index, String[] questions, String[][] answers) {
 {
-    
-            
+         
         this.lbl_Questao.setText(questions[index]);
-        this. bnt_Alternativa1.setText(answers[index] [0]);
+        this.bnt_Alternativa1.setText(answers[index][0]);
         this.btn_Alternativa2.setText(answers[index][1]);
         this.btn_Alternativa3.setText(answers[index][2]);
         this.btn_Alternativa4.setText(answers[index][3]);
         
+        this.index++;
+        
+        
        
-        this.index =0;
-                
+       
     }
 }
    
@@ -127,20 +129,21 @@ public class frmQuestionario extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bnt_Alternativa1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bnt_Alternativa1ActionPerformed
-  
+        Resposta(index, questions, answers);
+        
                
     }//GEN-LAST:event_bnt_Alternativa1ActionPerformed
 
     private void btn_Alternativa2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Alternativa2ActionPerformed
-  
+        Resposta(index, questions, answers);
     }//GEN-LAST:event_btn_Alternativa2ActionPerformed
 
     private void btn_Alternativa3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Alternativa3ActionPerformed
- 
+        Resposta(index, questions, answers);
     }//GEN-LAST:event_btn_Alternativa3ActionPerformed
 
     private void btn_Alternativa4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Alternativa4ActionPerformed
-   
+        Resposta(index, questions, answers);
     }//GEN-LAST:event_btn_Alternativa4ActionPerformed
 
     public static void main(String args[]) {
