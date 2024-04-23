@@ -33,11 +33,7 @@
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-<<<<<<< HEAD
                       <Component id="lbl_Questao" min="-2" pref="856" max="-2" attributes="0"/>
-=======
-                      <Component id="jLabel1" min="-2" pref="856" max="-2" attributes="0"/>
->>>>>>> 8c7763b6b2158b31d57b60e3045700d759bdaf73
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
@@ -60,11 +56,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-<<<<<<< HEAD
               <Component id="lbl_Questao" min="-2" pref="94" max="-2" attributes="0"/>
-=======
-              <Component id="jLabel1" min="-2" pref="94" max="-2" attributes="0"/>
->>>>>>> 8c7763b6b2158b31d57b60e3045700d759bdaf73
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="bnt_Alternativa1" alignment="3" min="-2" pref="144" max="-2" attributes="0"/>
@@ -125,11 +117,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_Alternativa4ActionPerformed"/>
       </Events>
     </Component>
-<<<<<<< HEAD
     <Component class="javax.swing.JLabel" name="lbl_Questao">
-=======
-    <Component class="javax.swing.JLabel" name="jLabel1">
->>>>>>> 8c7763b6b2158b31d57b60e3045700d759bdaf73
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI Light" size="36" style="0"/>

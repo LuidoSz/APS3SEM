@@ -60,11 +60,7 @@
               <Component id="lbl_Cabecario" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
               <EmptySpace min="-2" pref="456" max="-2" attributes="0"/>
-=======
-              <EmptySpace min="-2" pref="423" max="-2" attributes="0"/>
->>>>>>> 8c7763b6b2158b31d57b60e3045700d759bdaf73
               <Component id="btn_Iniciar" min="-2" pref="177" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
           </Group>
@@ -79,12 +75,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="INICIAR QUESTION&#xc1;RIO"/>
       </Properties>
-<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_IniciarActionPerformed"/>
       </Events>
-=======
->>>>>>> 8c7763b6b2158b31d57b60e3045700d759bdaf73
     </Component>
     <Component class="javax.swing.JLabel" name="lbl_Cabecario">
       <Properties>
