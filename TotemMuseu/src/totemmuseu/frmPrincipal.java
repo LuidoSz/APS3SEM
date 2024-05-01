@@ -4,6 +4,7 @@ package totemmuseu;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
+import metodos.Resolucao;
 
 
  
@@ -12,7 +13,7 @@ public class frmPrincipal extends javax.swing.JDialog {
 
 
     
-    frmPrincipal (java.awt.Frame parent, boolean modal) {
+    public frmPrincipal (java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         this.setUndecorated(true); //<- remove bordas
         initComponents();
@@ -94,6 +95,7 @@ public class frmPrincipal extends javax.swing.JDialog {
         
                 frmQuestionario questionario = new frmQuestionario(new javax.swing.JFrame(), true);
                 
+                questionario.setLocationRelativeTo(null);
                 questionario.setVisible(true);
                 
                 
@@ -110,7 +112,7 @@ public class frmPrincipal extends javax.swing.JDialog {
             public void run() {
                 frmPrincipal principal = new frmPrincipal(new javax.swing.JFrame(), true) {
                     public void actionPerformed(ActionEvent e) {
-                        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                        
                     }
                 };
                 principal.addWindowListener(new java.awt.event.WindowAdapter() {
@@ -120,10 +122,11 @@ public class frmPrincipal extends javax.swing.JDialog {
                     }
                 });
                 
-                
+
+
                 principal.setSize(getScreenSize());
+                principal.setLocationRelativeTo(null);
                 principal.setModal(true);
-                principal.setLocationRelativeTo(null);            
                 principal.setVisible(true);
                 
                           
@@ -142,6 +145,7 @@ public class frmPrincipal extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel lbl_Cabecario;
     // End of variables declaration//GEN-END:variables
+
 }
 
     
